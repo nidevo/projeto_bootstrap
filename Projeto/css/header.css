@@ -1,0 +1,37 @@
+#logo {
+    width: 20vw; /* Ajusta a largura para 15% da largura da viewport */
+    height: auto; /* Mantém a proporção da altura */
+    font-size: 0.3384615384615385em;
+  }
+  
+.container-1 {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  border-bottom: 1px solid black;
+  
+}
+
+h6 {
+  margin-left: -0.15384615384615385em;
+  width: 15vw; 
+  height: auto;
+  text-align: center;
+}
+
+
+#button-1 {
+  background: white;
+  color: black;
+  border: 3px solid black;
+  
+}
+
+#button-2 {
+  background: black;
+  color: white;
+  border: none;
+}
