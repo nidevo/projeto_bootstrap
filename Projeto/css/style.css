@@ -1,8 +1,10 @@
 @import 'header.css';
 @import 'menu.css';
+@import 'carrossel.css';
 #slogan{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
 }

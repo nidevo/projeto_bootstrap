@@ -1,0 +1,19 @@
+
+
+.container-fluid-carrossel{
+    display: flex;
+    width: 506px;
+    height: 307px;
+    flex-direction: column;
+} 
+
+.container-carrossel h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    align-self: flex-start;
+    
+}
+
+
