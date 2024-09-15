@@ -1,0 +1,30 @@
+.container-fluid-cards{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+#slogancards{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.card img {
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card{
+    display: flex;
+   border-radius: 30px;
+   margin: 10px; 
+   transition: transform 0.3s ease;
+}
+
+  .card:hover {
+    transform: scale(1.05);
+  }

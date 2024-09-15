@@ -1,8 +1,9 @@
 #logo {
-  width: 233px; /* Ajusta a largura para 15% da largura da viewport */
-  height: auto; /* Mantém a proporção da altura */
+  width: 233px; 
+  height: auto; 
   font-size: 0.3384615384615385em;
 }
+
 
 .container-1 {
   height: auto;
@@ -16,7 +17,6 @@
 h6 {
   margin-left: -0.15384615384615385em;
   width: 15vw;
-  height: auto;
   text-align: center;
 }
 
@@ -32,7 +32,7 @@ h6 {
   border: none;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   body {
     width: 100%;
   }
@@ -45,10 +45,66 @@ h6 {
   #logo {
     width: 140px;
   }
-  .container-fluid-carrosel {
+
+  .carrossel-accordion-container {
     display: flex;
-    width: 100vw;
-    height: auto;
-    padding: 0px 50px;
+    width: 100%; 
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box; 
+    padding: none;
+    margin-left: 0 !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
   }
+
+  .carrossel{
+    width: 100%;
+    
+    font-size: 15px ;
+    align-items: center;
+    justify-content: center;
+  }
+  .carrossel h2 {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .carousel-inner img {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .carousel-caption {
+    display: block !important;
+  }
+
+  .accordion{
+    display: flex !important;
+    width: 100% ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .accordion h2{
+    text-align: center !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .accordion-item{
+    width: 100% !important;
+  }
+      .footer-frame {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 0px !important; 
+    }
+
+   
 }

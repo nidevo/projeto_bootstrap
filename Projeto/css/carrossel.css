@@ -1,19 +1,79 @@
+.carrossel-accordion-container{
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  gap: 63px;
+  justify-content: center;
+}
+
+.carrossel {
+  display: flex;
+  width: 507px; 
+  max-width: 100%;
+  margin: 0; 
+  box-sizing: border-box; 
+  flex-direction: column;
+  border-radius: 15px;
+}
+.carousel-inner img {
+  width: 100%; 
+  height: auto;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
 
 
-.container-fluid-carrossel{
-    display: flex;
-    width: 506px;
-    height: 307px;
-    flex-direction: column;
-} 
+.carrossel h2 {
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 23px;
+}
 
-.container-carrossel h2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: start;
-    align-self: flex-start;
-    
+
+.accordion{
+  display: block;
+}
+
+.accordion-body {
+  max-height: 200px; 
+  overflow-y: auto;   
+}
+
+
+
+.accordion h2 {
+  text-align: right;
+  flex-wrap: wrap;
+  font-size: 23px;
+}
+
+
+
+.accordion-item{
+  display: flex;
+  width: 500px;
+  height: auto;
+  align-items: center;
+  margin-top: 29px;
+  padding: 10px 0px ;
+  margin-top: 35px;
+  padding-bottom: 20px;
+  border: none;
+  
+}
+
+
+
+
+.accordion-item h2 {
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap;
+  height: 114px;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
 }
 
 

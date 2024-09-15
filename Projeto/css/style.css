@@ -1,10 +1,13 @@
-@import 'header.css';
-@import 'menu.css';
-@import 'carrossel.css';
-#slogan{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
+@import "header.css";
+@import "menu.css";
+@import "carrossel.css";
+@import "cards.css";
+@import "footer.css";
+
+
+#slogan {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
 }
