@@ -1,11 +1,10 @@
 #logo {
-  width: 233px; 
-  height: auto; 
+  width: 14.5625rem;
+  height: auto;
   font-size: 0.3384615384615385em;
 }
 
-
-.container-1 {
+.container-fluid-1 {
   height: auto;
   display: flex;
   justify-content: space-between;
@@ -43,27 +42,26 @@ h6 {
     display: none;
   }
   #logo {
-    width: 140px;
+    width: 8.75rem;
   }
 
   .carrossel-accordion-container {
     display: flex;
-    width: 100%; 
+    width: 100%;
     max-width: 100%;
     margin: 0 auto;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     padding: none;
     margin-left: 0 !important;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
   }
 
-  .carrossel{
+  .carrossel {
     width: 100%;
-    
-    font-size: 15px ;
+    display: flex;
+    font-size: 15px;
     align-items: center;
     justify-content: center;
   }
@@ -73,7 +71,7 @@ h6 {
   }
 
   .carousel-inner img {
-    width: 100%; 
+    width: 100%;
     height: auto;
     border-radius: 10px;
   }
@@ -82,29 +80,28 @@ h6 {
     display: block !important;
   }
 
-  .accordion{
+  .accordion {
     display: flex !important;
-    width: 100% ;
+    width: 100%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     align-items: center;
   }
-  .accordion h2{
+  .accordion h2 {
     text-align: center !important;
     justify-content: center;
     align-items: center;
   }
 
-  .accordion-item{
+  .accordion-item {
     width: 100% !important;
+    justify-content: center;
   }
-      .footer-frame {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        gap: 0px !important; 
-    }
-
-   
+  .footer-frame {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 0px !important;
+  }
 }

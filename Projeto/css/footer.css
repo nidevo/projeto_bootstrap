@@ -1,31 +1,28 @@
 .container-fluid-footer {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    background-color: black;
-    align-items: center;
-    justify-content: center;
-    
-    padding: 20px;
-   
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
 }
 
 .footer-frame {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 30px; 
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1.875rem;
 }
 
 .footer-frame img {
-    width: 100px; 
+  width: 6.25rem;
 }
 
 .footer-frame p {
-    display: flex;
-    margin: 0;
-    line-height: 1.5;
-    align-items: center;
+  display: flex;
+  margin: 0;
+  line-height: 1.5;
+  align-items: center;
 }

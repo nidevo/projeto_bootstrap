@@ -1,9 +1,9 @@
 @import "header.css";
 @import "menu.css";
-@import "carrossel.css";
+@import "section.css";
 @import "cards.css";
 @import "footer.css";
-
+@import "media.css";
 
 #slogan {
   justify-content: center;
